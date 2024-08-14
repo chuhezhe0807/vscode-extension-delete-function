@@ -1,6 +1,7 @@
 {
   "name": "vscode-extension-delete-function",
   "displayName": "vscode-extension-delete-function",
+  "publisher": "chuhezhe0807",
   "description": "",
   "version": "0.0.1",
   "engines": {
@@ -16,6 +17,13 @@
       {
         "command": "vscode-extension-delete-function.helloWorld",
         "title": "Delete func"
+      }
+    ],
+    "keybindings":[
+      {
+        "command": "vscode-extension-delete-function.helloWorld",
+        "key": "ctrl+D D",
+        "mac": "cmd+D D"
       }
     ]
   },
